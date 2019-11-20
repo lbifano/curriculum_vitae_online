@@ -65,7 +65,7 @@ padding:15px;
 	<div class="row well">
         <div class="col-sm-12">
                 <div class="panel" id="top_panel">
-                    <img class="pic img-thumbnail img-circle" src="https://graph.facebook.com/bifanolautaro/picture?height=200&width=200" alt="Administrador">
+                    <img src="https://bifano.com.ar/foto.png" width=200 alt="Administrador">
                     <div class="name hidden-xs"><small>Lautaro Bifano</small> <span style="font-size: 16px; color:#999;"></span></div>
                 </div>
     	<br><br><br>
