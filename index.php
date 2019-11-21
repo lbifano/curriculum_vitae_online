@@ -1,17 +1,40 @@
-<html><head>
 
-    <meta charset="utf-8">
+<!-- saved from url=(0050)file:///opt/proyectos_web/bifano.com.ar/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lautaro Bifano :: CV</title>
+    <meta name="description" content="Lautaro Bifano\r\nIngeniero en Sistemas de Información\r\ne-mail: bifanolautaro@frlp.utn.edu.ar\r\ntel: 0221 15 592 0573">
 
 
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<script src="//use.fonticons.com/0aac4103.js"></script>
-    
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-107725155-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -28,18 +51,16 @@ padding:15px;
 }
 .pic
 {
-     margin-top:140px; 
-     width:120px;
-     margin-left:50px;
-     margin-bottom:-60px;
+     margin-top:140px;
+     width:180px;
+     margin-left:20px;
+     margin-bottom:-82px;
 }
 
 #top_panel
 {
-    background-image:url("http://gnu.frlp.utn.edu.ar/ticket/images/portada_default.jpg?refresh=true"); 
-    background-size: 100%;
-    height: 200px;
-    background-repeat:no-repeat;
+    background:url("networking.png") repeat;
+        background-size: 1100px;
 }
 
 .name
@@ -48,10 +69,10 @@ padding:15px;
     padding-left:200px;
     font-size:30px;
 }
-.name_sm 
+.name_sm
 {
-    padding-top:20px;
-   font-size:30px; 
+    padding-top:18px;
+   font-size:30px;
 }
 .datos_perfil {
 	list-style-type: none;
@@ -59,14 +80,18 @@ padding:15px;
     margin: 0px;
     padding: 0px;
 }
+small {
+	    font-size: 120%;
+    margin-left: 40;
+}
 </style>
 
 <div class="container">
 	<div class="row well">
         <div class="col-sm-12">
                 <div class="panel" id="top_panel">
-                    <img src="https://bifano.com.ar/foto.png" width=200 alt="Administrador">
-                    <div class="name hidden-xs"><small>Lautaro Bifano</small> <span style="font-size: 16px; color:#999;"></span></div>
+                    <img class="pic img-thumbnail img-circle" src="foto.png?1=1" width="100">
+                    <div class="name hidden-xs"><small>Lautaro Bifano<br><font style="font-size:17px; padding-left:40px;">Ing. en sistemas de información</font></small> <span style="font-size: 16px; color:#999;"></span></div>
                 </div>
     	<br><br><br>
      	</div>
@@ -75,81 +100,104 @@ padding:15px;
         </div>
      	<div class="col-sm-4">
 	     	<h2>Datos personales</h2>
-	     	
-	     	<ul class="datos_perfil">		     	
+
+	     	<ul class="datos_perfil">
 		     	<li><b>Nombre:</b> Lautaro Bifano </li>
 		     	<li><b>E-Mail:</b> bifanolautaro@frlp.utn.edu.ar </li>
 		     	<li><b>DNI:</b> 33433768 </li>
 		     	<li><b>Fecha de Nacimiento:</b> 19/12/1987 </li>
 		     	<li><b>Provincia:</b>  Buenos Aires</li>
 		     	<li><b>Localidad:</b>  La Plata</li>
-		     	<li><b>Pagina WEB:</b> <a href='http://bifano.com.ar'>http://bifano.com.ar</a> </li>
+		     	<li><b>Pagina WEB:</b> <a href="https://bifano.com.ar/">www.bifano.com.ar</a> </li>
 		     	<li><b>Telefono:</b> 0221 15 592 0573 </li>
 	     	</ul>
 <br>
-	     	<a href='https://www.facebook.com/bifanolautaro'><span class="fa fa-facebook-square fa-2x"></span></a>&nbsp;
-	     	<a href='https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile'><span class="fa fa-linkedin-square fa-2x"></span></a>&nbsp;
-	     	<a href='https://github.com/lbifano'><span class="fa fa-github-square fa-2x"></span></a>&nbsp;
-	     	<a href='https://docs.google.com/document/d/1kGWY6FYs-rcNTlAejod1M2XdEPNnm3iSuvlIs-Ys4GM/edit?usp=sharing'><span class="fa fa-file fa-2x"></span></a><br><br>	     	
+	     	<a href="https://www.linkedin.com/in/lautaro-bifano-23453117"><span class="fab fa-linkedin fa-2x"></span></a>&nbsp;
+	     	<a href="https://github.com/lbifano"><span class="fab fa-github fa-2x"></span></a>&nbsp;
+	     	<a href="https://docs.google.com/document/d/1kGWY6FYs-rcNTlAejod1M2XdEPNnm3iSuvlIs-Ys4GM/edit?usp=sharing">
+	     	    <span class="fa-stack fa-2x" style="margin-left:-20px;margin-top:-10px">
+    <i class="fa fa-file fa-stack-1x"></i>
+      <span class="fa fa-stack-1x" style="color:#FFF;">
+          <span style="font-size:12px; display:block;">
+              CV
+          </span>
+    </span>
+</span>	
+</a><br><br>
+
+<a href="http://qr.afip.gob.ar/?qr=NAolT6mJqmg7QhFaQ-pUeA,," target="_F960AFIPInfo"><img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" width=50 border="0"></a>
      	</div>
             <div id="menu" class="col-sm-8">
 		<div class="panel list-group ">
- <a id='link_div_estudios'  class="list-group-item active" data-toggle="collapse" data-target="#div_estudios" data-parent="#menu"><b>Estudios</b> <span class="fa fa-university pull-right"></span></a>
- <div id="div_estudios" class="collapse container item_cont">
+      <a id="link_div_conocimientos" class="list-group-item active" data-toggle="collapse" data-target="#div_conocimientos" data-parent="#menu" aria-expanded="true"><b>Conocimientos en tecnologías de la información</b> <span class="fa fa-lightbulb-o pull-right"></span></a>
+
+      <div id="div_conocimientos" class="item_cont" aria-expanded="true" style="">
+     <b style="font-size:20px">
+     PHP Senior, Laravel, HTML5, JQuery, AngularJS, NodeJS, Bootstrap, Material Design, PhoneGap (Tecnologías móviles), Ionic, API’s REST, Bases de Datos, Linux Scripting Avanzado, Git y SVN, Docker, Redes Avanzado, Mikrotik MTCNA.
+     </b>
+      </div>
+ <a id="link_div_estudios" class="list-group-item collapsed" data-toggle="collapse" data-target="#div_estudios" data-parent="#menu" aria-expanded="false"><b>Estudios</b> <span class="fa fa-university pull-right"></span></a>
+ <div id="div_estudios" class="collapse  item_cont" aria-expanded="false">
 <div class="row">
 <div class="col-sm-12">
-<b>Estudios Universitarios <br>(Inicio:2006/Finalización:2011)</b><br>
+<b>Estudios Universitarios </b><br>
+<b>(Inicio:2006/Finalización:2015) </b><br>
 Universidad Tecnológica Nacional - Facultad Regional:La Plata<br>
-Título: Analista universitario de Sistemas<br>
+Titulo: <b>Ingeniería en Sistemas de Información <a target="_blank" href="file:///opt/proyectos_web/bifano.com.ar/titulo_utn.jpg">(TITULO)</a></b><br>
+Promedio general: 7,10<br><br>
+<b>(Inicio:2006/Finalización:2011)</b><br>
+Universidad Tecnológica Nacional - Facultad Regional:La Plata<br>
+Título: <b>Analista universitario de Sistemas</b><br>
 Promedio general: 6,44<br><br>
-<b>(Inicio:2006/Finalización:-) (restan dos finales)</b><br>
-Universidad Tecnológica Nacional - Facultad Regional:La Plata<br>
-Titulo: Ingeniería en Sistemas de Información<br>
-Promedio general: 6,90<br><br>
 <b>Estudios Secundarios (Inicio:2003/Finalización:2005)</b><br>
 Establecimiento: Escuela de educación Media Nº3 de Berisso<br>
-Título Obtenido: Bachiller en Ciencias Naturales<br>
+Título: Bachiller en Ciencias Naturales<br>
 Promedio general:7,36
 </div>
 
 </div>
 
  </div>
- <a class="list-group-item" data-toggle="collapse" data-target="#div_conocimientos" data-parent="#menu"><b>Conocimientos en programación y tecnologías</b> <span class="fa fa-lightbulb-o pull-right"></span></a>
 
- <div id="div_conocimientos" class="container collapse item_cont">
-<b>
-PHP Senior, HTML5, JQuery, AngularJS, NodeJS, Polymer, Bootstrap, Material Design, <br>PhoneGap (Tecnologías móviles), API’s REST, Bases de Datos, Linux Scripting Avanzado, <br>Git y SVN, Redes Avanzado, API Facebook, API Linkedin.
-</b>
- </div>
- <a  class="list-group-item" data-toggle="collapse" data-target="#div_laborales" data-parent="#menu"><b>Antecedentes laborales comprobables</b> <span class="fa fa-file-text-o pull-right"></span></a>
+ <a class="list-group-item collapsed" data-toggle="collapse" data-target="#div_laborales" data-parent="#menu" aria-expanded="false"><b>Antecedentes laborales comprobables</b> <span class="fa fa-file-text-o pull-right"></span></a>
 
- <div id="div_laborales" class="container collapse item_cont">
+ <div id="div_laborales" class=" collapse item_cont" aria-expanded="false">
 
-		<b>LINES (Laboratorio de Ingeniería en Sistemas	de información) (Inicio:6-2010/Finalización:12-2010)</b><br>
-		<b>Becario</b><br>
-		Tareas: Investigación<br><br>
+   <b>LINES (Laboratorio de Ingeniería en Sistemas	de información) (Inicio:6-2010/Finalización:12-2010)</b><br>
+   <b>Becario</b><br>
+   Tareas: Investigación<br><br>
 
-		<b>LINES (Inicio:2-2011/Finalización:-)</b><br>
+		<b>LINES (Inicio:2-2011/Finalización: - )</b><br>
 		<b>Desarrollador PHP</b><br>
 		Desarrollo de módulos en un sistema para OCEBA (Organismo de Control de Energía Eléctrica <br>de la Provincia de Buenos Aires)<br><br>
 
-		<b>Cinco de Septiembre (Operador de Aguas<br> Bonaerenses S.A.) (Inicio:12-2011/Finalización:-)</b><br>
-		<b>Desarrollador C# y Administrador de Redes</b><br>
+		<b>Cinco de Septiembre (Operador de Aguas<br> Bonaerenses S.A.) (Inicio:12-2011/Finalización: - )</b><br>
+		<b>Desarrollador PHP Laravel, Sistemas Moviles y Administrador de Redes</b><br>
 		Desarrollo y mantenimiento del Sistema de Trámites y Reclamos de Aguas Bonaerenses S.A.<br>
 		Administración de Bases de Datos y Redes Informáticas<br><br>
 
-		<b>Iterar Sistemas (Emprendimiento personal)(Inicio:2-2013/Finalización:-)</b><br>
-		Web <a href='http://iterar.com.ar'>http://iterar.com.ar</a><br>
+		<b>Iterar Sistemas (Emprendimiento personal)(Inicio:2-2013/Finalización:12-2015)</b><br>
+		<!-- Web <a href='http://iterar.com.ar'>http://iterar.com.ar</a><br> -->
 		CTO<br>
 		Arquitectura<br>
 		Desarrollo<br>
-		Infraestructura<br>
+		Infraestructura<br><br>
+
+    <b>Independiente (Inicio:1-2016/Finalización: - )</b><br>
+    Desarrollo de sistemas basados en la WEB<br>
+    Desarrollo de sistemas moviles basados en Cordova<br>
+    Mantenimiento de sistemas<br>
+    Consultoría<br><br>
+
+    <b>Docente (Inicio:3-2017/Finalización: - )</b><br>
+    Ayudante diplomado Ad-Honorem de la catedra de <b>"Sistemas Operativos"</b> de segundo año de la carrera ISI<br>
+    Ayudante diplomado Ad-Honorem de la catedra de <b>"Redes de Información"</b> de cuarto año de la carrera ISI<br>
+    <a target="_blank" href="file:///opt/proyectos_web/bifano.com.ar/nombramiento2017.jpeg">(Nombramiento)</a><br>
 
  </div>
- <a class="list-group-item" data-toggle="collapse" data-target="#div_congresos" data-parent="#menu"><b>Congresos y conferencias</b> <span class="fa fa-thumbs-o-up pull-right"></span></a>
+ <a class="list-group-item collapsed" data-toggle="collapse" data-target="#div_congresos" data-parent="#menu" aria-expanded="false"><b>Congresos y conferencias</b> <span class="fa fa-thumbs-o-up pull-right"></span></a>
 
- <div id="div_congresos" class="container collapse item_cont">
+ <div id="div_congresos" class=" collapse item_cont" aria-expanded="false">
 <ul>
  <li> Asistente en CNEISI (Congreso Nacional de Estudiantes de Ingeniería en Sistemas <br>
  de Información) 2007</li><li>
@@ -160,29 +208,32 @@ Expositor de Ticket-WEB (Sistema de venta ticket para Comedor Universitario en l
 Asistente en CNEISI 2010</li><li>
 Disertante en UbuCon Latinoamérica 2013 (Migración a Ubuntu en empresas)</li><li>
 Disertante en PampaSeg 2013 (Asegurando aplicaciones WEB con Software Libre)</li><li>
-Asistente en conferencias de GDG (Grupo de Desarrolladores de Google) durante 2014 y 2015</li>
+Asistente en conferencias de GDG (Grupo de Desarrolladores de Google) durante 2014 y 2015</li><li>
+Asistente en CNEISI 2017 en San Francisco</li>
 </ul>
 
  </div>
-    
- <a class="list-group-item" data-toggle="collapse" data-target="#div_cursos" data-parent="#menu"><b>Cursos</b> <span class="fa fa-graduation-cap pull-right"></span></a>
- <div id="div_cursos" class="container collapse item_cont">
+
+ <a class="list-group-item collapsed" data-toggle="collapse" data-target="#div_cursos" data-parent="#menu" aria-expanded="false"><b>Cursos</b> <span class="fa fa-graduation-cap pull-right"></span></a>
+ <div id="div_cursos" class=" collapse item_cont" aria-expanded="false">
 <ul><li>
 Programación distribuida y paralela con MPI en la ECI (Escuela de Ciencias Informáticas, UBA) año 2011</li><li>
 Ethical Hacking Expert en CLA Linux Institute (profesor Diego Córdoba) año 2012</li><li>
-Asterisk VoIP Expert en CLA Linux Institute (profesor Fabián Pignataro) año 2013</li>
+Asterisk VoIP Expert en CLA Linux Institute (profesor Fabián Pignataro) año 2013</li><li>
+MTCNA - MikroTik Certified Network Associate (en ProzCenter) año 2017 <a target="_blank" href="file:///opt/proyectos_web/bifano.com.ar/mtcna_cert.jpg">(certificado)</a></li>
 </ul>
- </div>     
+ </div>
 </div>
 </div>
 </div>
 </div>
 
 <script>
-$('#link_div_estudios').click();
+$('#link_div_conocimientos').click();
 $('.list-group-item').click(function(){
 	$('.list-group-item').removeClass('active');
 	$(this).addClass('active');
 });
 </script>
-</body></html>
+
+</div></body></html>
